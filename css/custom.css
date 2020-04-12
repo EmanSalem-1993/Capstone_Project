@@ -140,16 +140,22 @@ body{font-family: eman;}
 .front{
 	width: 273px;
 	height: 273px;
-	
+	margin-bottom: 30px;
 	background-color: #1aff1a;
 	}
+
 .at-top{
 	margin-top: -200px;
+}
+@media only screen and (max-width: 900px){
+	.at-top{
+		margin-top: 50px;
+	}
 }
 .front1{
 	width: 273px;
 	height: 273px;
-	
+	margin-bottom: 30px;
 	background-color: #80ff80;	
 }
 
